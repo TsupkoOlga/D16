@@ -8,6 +8,7 @@ from .models import Post, Category
 from .filters import PostFilter
 from .forms import PostForm
 
+
 class PostsList(ListView):
     model = Post
     ordering = '-time_in'
